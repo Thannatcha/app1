@@ -1,13 +1,10 @@
 import React from 'react'
-import './style.css'
-import './App.css';
+import { Header , Content , Footer} from './func-components';
+
 
 function App() {
   return (
-    <>
-    <h2>DeverloperThai.com</h2>
-    <div className='title'>React & React Native</div>
-    </>
+    [<Header/>,<Content/>,<Footer/>]
   );
 }
 
