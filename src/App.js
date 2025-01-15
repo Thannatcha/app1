@@ -1,9 +1,9 @@
 import React from 'react'
-import RefsFunc from './refs-func';
+import MassageBox from './state-func';
 
 
 function App() {
-  return <RefsFunc/>
+  return <MassageBox/>
 }
 
 export default App;
