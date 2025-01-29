@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import {userContext} from './context'
-import Content2 from './context-content';
+import Content2 from './context-content2';
 import Header2 from './context-header2';
 
 
