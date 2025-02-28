@@ -1,12 +1,24 @@
 import React from 'react'
-import FormSelectFile from './form-select-file';
+import './App.css';
+import Navbar from './components/Navbar';
+
+import Homes from './contents/Homes';
+
+import { BrowserRouter as Router, Route} from 'react-router-dom'
 
 function App() {
   
   return (
-      <FormSelectFile/>
-  )
- 
+    <Router>
+      <div className="App">
+        <Navbar/>
+        <Route exact path="/">
+          <Homes/>
+        </Route>
+      </div>
+    </Router>
+    
+  );
 }
 
 export default App;
